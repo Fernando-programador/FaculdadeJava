@@ -50,7 +50,7 @@ public class Pessoa {
         return idade;
     }
     
-    public void imprmir(){
+    public void imprimir(){
         System.out.println("Pessoa: ");
         System.out.println("Nome: " + nome);
         System.out.println("CPF: " + cpf);
