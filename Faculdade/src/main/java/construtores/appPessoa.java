@@ -13,9 +13,16 @@ public class appPessoa {
         //Pessoa p1 = new Pessoa();
 
                 
-        Pessoa p2 = new Pessoa("Fernando", "31512832847", 38);
+        Pessoa p1 = new Pessoa("Fernando", "31512832847", 38);
         
-        p2.imprimir();
+        Pessoa p3 = new Pessoa("fer", "56416168", 38);
+        
+        
+        System.out.println(p1.nome);
+        p1.imprimir();
+        p3.imprimir();
+        
+        
     }
     
 }
