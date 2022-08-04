@@ -9,7 +9,8 @@ package Agregacao;
  * @author java
  */
 public class Desktop {
-     private String torre;
+
+    private String torre;
 
     public DiscoRigido hd = new DiscoRigido();
     public Memoria me = new Memoria();
@@ -24,6 +25,7 @@ public class Desktop {
 
     Desktop() {
     }
+
     public String getTorre() {
         return torre;
     }
@@ -100,7 +102,4 @@ public class Desktop {
         this.slot3 = slot3;
     }
 
-
-  
-    
 }
