@@ -24,6 +24,10 @@ public class Pessoa {
    setIdade(idade);
    }
 
+    public Pessoa() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public void setNome(String nome) {
         if(!nome.isEmpty()){
         this.nome = nome;
